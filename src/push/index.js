@@ -61,7 +61,7 @@ const pushTelegramBot = (title, desp) => {
 };
 
 const pushWecomBot = (title, desp) => {
-  if (!(wecomBot.key && wecomBot.telphone)) {
+  if (!(wecomBot.key)) {
     return;
   }
   const data = {
